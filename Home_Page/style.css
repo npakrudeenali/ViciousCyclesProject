@@ -17,7 +17,7 @@ body {
 .about {
     background-color: var(--background-color);
     border-radius: 3rem;
-    height: 15rem;
+    height: auto;
     text-align: center;
     margin:2%;
     padding:2%;
@@ -29,7 +29,12 @@ body {
 p {
     color: var(--black);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    font-size:25px;
+    background-color: #FFF2C9;
+    width:fit-content; 
+    padding:0.5rem;
+    margin:1rem;
+    align-items: center;
 }
 
 h2 {
@@ -38,16 +43,29 @@ h2 {
     font-size: 7rem;
     text-decoration: solid, var(--green);
     background-color: var(--orange);
+    width:fit-content;
+    padding:1%;
+    border-radius: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.logo {
+    align-content: left;
+    width: 0.5rem;
+    height:auto;
     
 }
 
-img {
-    width: 30rem;
-    height: 21rem;
-    margin-left: 5rem;
-    align-items: center;
-    float: left;
-    padding: 3rem;
+ #headingpicture {
+    width: 83.5rem;
+    height: auto;
+}
+
+#bikepictureshomepage {
+    width:30rem;
+    height: auto;
+    
 }
 
 .contact {
@@ -67,4 +85,20 @@ img {
     font-size: 5rem;
     color: var(--black);
     text-align: center;
+    
 }
+
+
+
+button {
+    width: text;
+    height: 4rem;
+    background-color: var(--background-color);
+    color:#A36308;
+    font-size: 3rem;
+    font-family: fantasy;
+    border-radius: 1rem;
+     
+}
+
+
