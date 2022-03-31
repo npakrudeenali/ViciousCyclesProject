@@ -91,14 +91,25 @@ h2 {
 
 
 button {
-    width: text;
-    height: 4rem;
+    width: auto;
+    height: auto;
     background-color: var(--background-color);
     color:#A36308;
     font-size: 3rem;
     font-family: fantasy;
     border-radius: 1rem;
      
+}
+
+#icon {
+    width: 10rem;
+    height:10rem;
+}
+
+.icon {
+    width:auto;
+    height:auto;
+    
 }
 
 
